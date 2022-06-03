@@ -1,6 +1,7 @@
 ﻿# backend-nlw-return
+### Projeto construído com base nos princípios SOLID utlizando desacoplamento e inversão de dependência.
 
-##### Rodar migrate em ambiente dev: npx prisma migrate dev \m
+##### Rodar migrate em ambiente dev: npx prisma migrate dev 
 ##### Abrir prisma studio: npx prisma studio
 
 
