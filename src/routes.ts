@@ -15,10 +15,13 @@ routes.post('/feedbacks', async (req, res) => {
     nodemailerMailAdapter
   )
 
-  await submitFeedback.execute({
+  await submitFeedback.createFeedback({
     type,
     comment,
     screenshot
   })
+
+  await submitFeedback.sendEmail(req.body);
+
   return res.status(201).send();
 })
