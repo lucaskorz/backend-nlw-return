@@ -20,8 +20,6 @@ routes.post('/feedbacks', async (req, res) => {
     comment,
     screenshot
   })
-
-  await submitFeedback.sendEmail(req.body);
-
+  
   return res.status(201).send();
 })
