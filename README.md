@@ -9,3 +9,4 @@
 ##### Banco de dados utilizado: SQLite
 ##### Ferramenta de envio de e-mail teste: Mailtrap
 ##### Arquitetura utilizada: S.O.L.I.D
+##### Testes w/ JEST
